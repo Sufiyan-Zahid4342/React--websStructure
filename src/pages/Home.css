@@ -1,0 +1,127 @@
+/* src/pages/Home.css */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h1, h2, h3 {
+    color: #333; /* Dark gray for headings */
+  }
+  
+  h1 {
+    font-size: 3rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+  }
+  
+  section {
+    padding: 2rem;
+  }
+  
+  .hero-section {
+    height: 100vh;
+    background-image: url('/assets/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .hero-section h1 {
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hero-section p {
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+  }
+  
+  .hero-section button {
+    background-color: #007BFF; /* Bootstrap primary color */
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .hero-section button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  .features-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding: 2rem;
+  }
+  
+  .features-section div {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .features-section div:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+  }
+  
+  .two-column-section {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+  
+  .two-column-section .flex-1 {
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  .two-column-section .flex-1.bg-cover {
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Fixed height for the image */
+  }
+  
+  .two-column-section .flex-1 h2 {
+    color: white;
+    padding: 1rem;
+  }
+  
+  .product-list {
+    padding: 2rem;
+  }
+  
+  .product-list h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .product-list button {
+    background-color: #007BFF; /* Bootstrap primary color */
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .product-list button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
